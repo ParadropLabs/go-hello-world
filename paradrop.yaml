@@ -1,0 +1,17 @@
+name: go-hello-world
+description: Hello World chute for Paradrop written in Go.
+version: 1
+
+type: light
+use: go
+
+# Go chutes always compile a binary named "app".
+command: app
+
+config:
+  web:
+    port: 8080
+
+source:
+  type: git
+  url: https://github.com/ParadropLabs/go-hello-world
